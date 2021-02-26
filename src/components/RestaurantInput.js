@@ -50,10 +50,6 @@ export class RestaurantInput extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
-  return state;
-};
-
 const mapDispatchToProps = (dispatch) => {
   return {
     addRestaurant: (restaurant) => {
